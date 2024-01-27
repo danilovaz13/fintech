@@ -8,7 +8,7 @@ import { DatacContextProvider } from './Context/DataContext';
 const App = () => {
   return (
     <DatacContextProvider>
-      <div>
+      <div className="container">
         <Sidenav />
         <main>
           <Header />
