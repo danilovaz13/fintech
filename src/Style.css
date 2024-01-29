@@ -105,6 +105,14 @@ ul {
   background-color: var(--color-3);
 }
 
+/* loading*/
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
 /* daterange*/
 
 .daterange {
